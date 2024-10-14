@@ -17,4 +17,26 @@ header{
     width: 85%;
     height: 95%;
     border: 1px solid #fff;
+    display: flex;
+}
+
+header .menu_slide, .song_slide{
+    position: relative;
+    width: 25%;
+    height: 90%;
+   /* border: 1px solid #fff; */
+    background-color: #111727;
+    box-shadow: 5px 0px 2px #090f1f;
+    color: #fff;
+}
+
+header .song_slide{
+    width: 75%;
+    background: #0b1320;
+}
+
+header .master_play{
+    width: 100%;
+    height: 10%;
+    background: #111727;
 }
