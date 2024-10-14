@@ -386,7 +386,7 @@ header .song_slide nav{
     width: 90%;
     height: 10%;
     margin: auto;
-    border: 1px solid #fff;
+   /* border: 1px solid #fff;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -456,3 +456,23 @@ header .song_slide nav ul li{
     color: #fff;
     font-size: 12px;
   }
+
+  header .song_slide nav .user{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  header .song_slide nav .user img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px #131312;
+  }
+
+  
+
+  
