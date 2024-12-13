@@ -136,5 +136,5 @@ Array.from(document.getElementsByClassName('playlistPlay')).forEach((element)=>{
             music.play()
         })
 
-        
+      //left around 1:20:19, music should work around this point
 })
